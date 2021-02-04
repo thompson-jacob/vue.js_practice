@@ -8,12 +8,10 @@
   <body>
     <h1>Hello from HTML!</h1>
     <div id="app">
-      {{ message }}
-      <p> {{ jacob }}</p>
-      <span v-bind:title="message">
-        Hover your mouse over me for a few seconds
-        to see my dynamically bound title!
-      </span>
+      <input {{ memes }} type="text">
+      <p v-for="meme in memes"></pv-for></p>
+      <button v:on-click="add meme">Add meme</button>
+      
     </div>
     
   </body>
