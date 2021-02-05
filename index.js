@@ -7,8 +7,7 @@ var app = new Vue({
     };
   },
   methods: {
-    guess: function () {
-      console.log("Hi");
+    
     },
   },
 });
